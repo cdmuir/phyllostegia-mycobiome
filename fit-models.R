@@ -19,7 +19,7 @@ phykaainfect <- read_csv(
     )
 )
 
-fit1 <- brm(bf(DiseaseSeverity ~ Site + AMF * M_aphidis, zi ~ 1),
+fit1 <- brm(bf(DiseaseSeverity ~ Population + Site + AMF * M_aphidis, zi ~ 1),
             data = phykaainfect, 
             family = zero_inflated_beta(link = "logit"),
             chains = 1, iter = 4e3, thin = 1e0, seed = seeds[1]) %>%
