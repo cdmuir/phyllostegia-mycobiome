@@ -18,8 +18,6 @@ DiseaseSeverity,AMF,M_aphidis,Site,Population,Treatment
 0,FALSE,FALSE,HK,4688,Control
 0,FALSE,FALSE,KP,4688,Control
 0,FALSE,TRUE,HK,4688,M. aphidis
-0,FALSE,TRUE,HK,4688,M. aphidis
-0,FALSE,TRUE,HK,4688,M. aphidis
 0,FALSE,TRUE,KP,4688,M. aphidis
 0,FALSE,TRUE,KP,4688,M. aphidis
 0,FALSE,TRUE,KP,4688,M. aphidis
@@ -51,9 +49,6 @@ DiseaseSeverity,AMF,M_aphidis,Site,Population,Treatment
 0,FALSE,TRUE,HK,4689,M. aphidis
 0,FALSE,TRUE,HK,4689,M. aphidis
 0,FALSE,TRUE,HK,4689,M. aphidis
-0,FALSE,TRUE,HK,4689,M. aphidis
-0,FALSE,TRUE,HK,4689,M. aphidis
-0,FALSE,TRUE,KP,4689,M. aphidis
 0,FALSE,TRUE,KP,4689,M. aphidis
 0,FALSE,TRUE,KP,4689,M. aphidis
 0,FALSE,TRUE,KP,4689,M. aphidis
@@ -72,7 +67,6 @@ DiseaseSeverity,AMF,M_aphidis,Site,Population,Treatment
 0,TRUE,TRUE,KP,5075,AMF + M. aphidis
 0,FALSE,FALSE,HK,5075,Control
 0,FALSE,FALSE,HK,5075,Control
-0,FALSE,TRUE,HK,5075,M. aphidis
 0,FALSE,TRUE,HK,5075,M. aphidis
 0,FALSE,TRUE,HK,5075,M. aphidis
 0,FALSE,TRUE,HK,5075,M. aphidis
@@ -92,8 +86,6 @@ DiseaseSeverity,AMF,M_aphidis,Site,Population,Treatment
 0,FALSE,FALSE,HK,5245,Control
 0,FALSE,FALSE,HK,5245,Control
 0,FALSE,FALSE,HK,5245,Control
-0,FALSE,TRUE,HK,5245,M. aphidis
-0,FALSE,TRUE,HK,5245,M. aphidis
 0,FALSE,TRUE,HK,5245,M. aphidis
 0,FALSE,TRUE,HK,5245,M. aphidis
 0,FALSE,TRUE,HK,5245,M. aphidis
@@ -143,7 +135,6 @@ DiseaseSeverity,AMF,M_aphidis,Site,Population,Treatment
 0.047543641,TRUE,TRUE,HK,5245,AMF + M. aphidis
 0.059173372,TRUE,FALSE,KP,4688,AMF
 0.115478172,TRUE,TRUE,KP,5075,AMF + M. aphidis
-0.079524316,FALSE,TRUE,HK,4688,M. aphidis
 0.052913765,TRUE,TRUE,KP,5075,AMF + M. aphidis
 0.117202917,TRUE,TRUE,HK,5245,AMF + M. aphidis
 0.092835266,FALSE,FALSE,HK,5245,Control
