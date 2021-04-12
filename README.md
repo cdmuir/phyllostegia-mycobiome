@@ -1,5 +1,5 @@
 # phyllostegia-mycobiome
-Restoration of the mycobiome of the endangered Hawaiian mint *Phyllostegia kaalaensis* increases its pathogen resistance
+Restoration of the mycobiome of the endangered Hawaiian mint *Phyllostegia kaalaensis* increases its pathogen resistance. Accepted at *Fungal Ecology*.
 
 ## Downloading repository 
 
@@ -10,12 +10,12 @@ Restoration of the mycobiome of the endangered Hawaiian mint *Phyllostegia kaala
 ## Fit model and plot Figure 1
 
 ```
-source("fit-models.R") # fit models using brms
-source("plot-results.R") # plot results (figure 1)
+source("01_fit-models.R") # fit models using brms
+source("04_plot-results.R") # plot results (figure 1)
 ```
 
 Other scripts:
 
 - `get-seeds.R` downloads random seeds saved in `seeds.rds`. If you overwrite, your results will differ.
-- `process-data.R` processes raw data (not included in this repo) to generate `processed-data.csv` file.
-- `compare-models.R` performs model comparison using LOOIC.
+- `01_process-data.R` processes raw data (not included in this repo) to generate `processed-data.csv` file.
+- `03_compare-models.R` performs model comparison using LOOIC.

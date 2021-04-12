@@ -138,7 +138,7 @@ pooled_dot_plot <- ggplot(
 l <- get_legend(pooled_dot_plot)
 p1 <- pooled_dot_plot + theme(legend.position = "none")
 p2 <- plot_grid(pooled_fe, l, ncol = 1)
-p <- plot_grid(p1, p2, labels = "auto", rel_widths = c(1, 1))
+p <- plot_grid(p1, p2, labels = "AUTO", rel_widths = c(1, 1))
 
 ggsave("pooled_phykaa_disease_severity_dotplot.tiff", 
        plot = p, width = 10, height = 8)
